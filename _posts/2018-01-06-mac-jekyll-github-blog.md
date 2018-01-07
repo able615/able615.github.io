@@ -1,4 +1,11 @@
-# Mac下使用Jekyll和github搭建个人博客
+---
+layout: post
+title: Mac下使用Jekyll和github搭建个人博客
+categories: Mac, Jekyll, Github, blog
+description: Mac下使用Jekyll和github搭建个人博客方法
+keywords: Mac, Jekyll, Github
+---
+
 ## 1、安装ruby
 使用brew安装
 ``` python
@@ -70,7 +77,7 @@ Configuration file: /Users/liuyw/able615blog/_config.yml
             Source: /Users/liuyw/able615blog
        Destination: /Users/liuyw/able615blog/_site
  Incremental build: disabled. Enable with --incremental
-      Generating... 
+      Generating...
                     done in 0.415 seconds.
  Auto-regeneration: enabled for '/Users/liuyw/able615blog'
     Server address: http://127.0.0.1:4000/
@@ -93,7 +100,5 @@ https://github.com/able615/able615.github.io.git
 5 $ sudo git remote add origin https://github.com/able615/able615.github.io.git
 6 $ sudo git push -u origin master
 ```
-这里注意替换为你自己的地址，在执行git push的时候，需要输入github的账号和密码。 
+这里注意替换为你自己的地址，在执行git push的时候，需要输入github的账号和密码。
 完成后在浏览器上输入: able615.github.io，就可以看见博客了。
-
-

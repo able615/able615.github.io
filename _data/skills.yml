@@ -1,5 +1,6 @@
-- name: DevOps Keywords
+- name:
   keywords:
+      - DevOps
       - Linux
       - Mysql
       - docker
@@ -11,6 +12,8 @@
       - Zookeeper
       - Disconf
       - Nginx
+      - jenkins
+      - git
 
 #- name: Mobile Developer Keywords
 #  keywords:

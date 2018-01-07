@@ -1,18 +1,16 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 程序人生
+keywords: Yuewu Liu, 刘跃武, able
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是able，80后。
 
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
+坚信熟能生巧，技术改变人生。
 
 ## 联系
 

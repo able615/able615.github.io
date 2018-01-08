@@ -239,6 +239,8 @@ echo "myblog.com" > CNAME
 
 [Jekyll官网](https://www.jekyll.com.cn/)
 
+[主题来源于码志](https://github.com/mzlogin/mzlogin.github.io)
+
 ## 后话
 借助开源项目Jekyll+免费的Github平台，就可以搭建属于自己的高颜值博客。
 

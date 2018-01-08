@@ -1,4 +1,11 @@
-# Mac下使用Jekyll和github搭建个人博客
+---
+layout: post
+title: Mac下使用Jekyll和github搭建个人博客
+categories: Mac, Jekyll, Github, blog
+description: Mac下使用Jekyll和github搭建个人博客方法
+keywords: Mac, Jekyll, Github
+---
+
 ## 1、安装ruby
 使用brew安装
 ``` python
@@ -70,7 +77,7 @@ Configuration file: /Users/liuyw/able615blog/_config.yml
             Source: /Users/liuyw/able615blog
        Destination: /Users/liuyw/able615blog/_site
  Incremental build: disabled. Enable with --incremental
-      Generating... 
+      Generating...
                     done in 0.415 seconds.
  Auto-regeneration: enabled for '/Users/liuyw/able615blog'
     Server address: http://127.0.0.1:4000/
@@ -93,7 +100,7 @@ https://github.com/able615/able615.github.io.git
 5 $ sudo git remote add origin https://github.com/able615/able615.github.io.git
 6 $ sudo git push -u origin master
 ```
-&emsp;&emsp;这里注意替换为你自己的地址，在执行git push的时候，需要输入github的账号和密码。 
+&emsp;&emsp;这里注意替换为你自己的地址，在执行git push的时候，需要输入github的账号和密码。
 完成后在浏览器上输入: able615.github.io，就可以看见博客了。
 
 ## 7、使用主题
@@ -114,7 +121,7 @@ $ git clone https://github.com/able615/able615.github.io.git
 2. 修改配置
 
    网站的配置基本都集中在 \_config.yml 文件中，将其中与个人信息相关的部分替换成你自己的，比如网站的 url、title、subtitle 和第三方评论模块的配置等。
-   
+
 3. 删除文章与图片
 
    如下文件夹中除了 template.md 文件外，都可以全部删除，然后添加自己的内容。
@@ -161,7 +168,7 @@ Configuration file: /Users/liuyw/my_git/able615.github.io/_config.yml
             Source: /Users/liuyw/my_git/able615.github.io
        Destination: /Users/liuyw/my_git/able615.github.io/_site
  Incremental build: disabled. Enable with --incremental
-      Generating... 
+      Generating...
    GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
     Liquid Warning: Liquid syntax error (line 2): Expected dotdot but found pipe in "{{(site.github.public_repositories | sort: 'stargazers_count') | reverse }}" in pages/open-source.md
                     done in 3.437 seconds.
@@ -214,7 +221,7 @@ PING sni.github.map.fastly.net (151.101.229.147): 56 data bytes
 
 在域名供应商的控制台，添加解析，两条 A 记录：
 ```
-记录类型    主机记录    解析线路(运营商)   记录值 
+记录类型    主机记录    解析线路(运营商)   记录值
 A           @           默认              151.101.229.147
 A           www         默认              151.101.229.147
 ```
@@ -229,7 +236,3 @@ echo "myblog.com" > CNAME
 [每个人都应该有一个Jekyll博客](https://www.tuicool.com/articles/ruMVjyN)
 
 [使用jekyll搭建blog](http://www.zorin.xin/%E5%8D%9A%E5%AE%A2%E6%8A%80%E6%9C%AF/2017/02/20/%E4%BD%BF%E7%94%A8jekyll%E6%90%AD%E5%BB%BAblog.html)
-
-
-
-

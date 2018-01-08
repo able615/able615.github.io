@@ -2,15 +2,17 @@
 layout: page
 title: About
 description: 程序人生
-keywords: Yuewu Liu, 刘跃武, able
+keywords: Yuewu Liu, able615, able, liuyw
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是able，80后。
+我是able615，热心于研究、分享开源技术。
 
-坚信熟能生巧，技术改变人生。
+学习使我快乐，坚信技术改变人生。
+
+业余羽毛球、快走、游泳爱好者。
 
 ## 联系
 

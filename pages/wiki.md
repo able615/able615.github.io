@@ -8,7 +8,7 @@ menu: 维基
 permalink: /wiki/
 ---
 
-> 记多少命令和快捷键会让脑袋爆炸呢？
+> 好记性不如烂笔头。不积跬步，无以至千里；不积小流，无以成江海。
 
 <ul class="listing">
 {% for wiki in site.wiki %}

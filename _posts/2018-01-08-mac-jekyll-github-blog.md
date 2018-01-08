@@ -236,3 +236,12 @@ echo "myblog.com" > CNAME
 [每个人都应该有一个Jekyll博客](https://www.tuicool.com/articles/ruMVjyN)
 
 [使用jekyll搭建blog](http://www.zorin.xin/%E5%8D%9A%E5%AE%A2%E6%8A%80%E6%9C%AF/2017/02/20/%E4%BD%BF%E7%94%A8jekyll%E6%90%AD%E5%BB%BAblog.html)
+
+[Jekyll官网](https://www.jekyll.com.cn/)
+
+## 后话
+借助开源项目Jekyll+免费的Github平台，就可以搭建属于自己的高颜值博客。
+
+无需数据库、评论功能，不需要不断的更新版本——只用关心你的博客内容，真是简单、省心、高效，非常Nice!
+
+2018，新征程，从博客开始，做一个擅于学习，乐于分享的人。

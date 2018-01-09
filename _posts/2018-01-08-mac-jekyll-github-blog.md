@@ -161,8 +161,8 @@ Traceback (most recent call last):
 
 看提示大概是gem软件版本方面的问题，网上找到用bundle exec来启动的，试了下果然能成功
 
-``` python
-$ bundle exec jekyll serve
+``` sh
+$ bundle exec jekyll serve --watch
 Configuration file: /Users/liuyw/my_git/able615.github.io/_config.yml
        Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
             Source: /Users/liuyw/my_git/able615.github.io

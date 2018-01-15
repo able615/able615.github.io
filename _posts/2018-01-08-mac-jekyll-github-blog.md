@@ -227,7 +227,7 @@ A           www         默认              151.101.229.147
 ```
 记录值填写刚才获得的ip地址，在博客根目录添加CNAME文件,并将你的域名写入:
 ```
-echo "myblog.com" > CNAME
+echo "www.ttbrook.com" > CNAME
 ```
 
 将CNAME提交，待域名解析完成，就可以了（大概1分钟解析时间）。

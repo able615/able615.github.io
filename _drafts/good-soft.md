@@ -6,24 +6,22 @@ description: 用正确的工具做对的事情
 keywords: 软件, 推荐
 ---
 
-好的软件总是给人一种相见恨晚的感觉。
+工欲善其事必先利其器
 
 ## 软件列表
 
 | 功能                                 | Windows        | Mac OS X       |
 |--------------------------------------|----------------|----------------|
-| 文本编辑                             | gVim           | MacVim         |
-| 离线 API 文档                        | Zeal           | Dash           |
-| UML                                  | Visio          | StarUML        |
+| 文本编辑                             | Notepad++       | Atom        |
+| 笔记                                 | 有道云笔记        | 有道云笔记        |
+| 压缩工具                              | 7.zip            |  The Unarchiver|
+| 虚拟机                           | WMware Workstation  | WMware Fusion  |
+| 办公软件                       | office2010         | office2016   |
+| 脑图                           | Xmind             | 幕布           |
 | 流程图                               | Visio          | ProcessOn.com  |
 | 文件查找                             | Everything     | Alfred         |
-| 文件内容查找                         | FileLocator    | Alfred         |
-| Android 开发                         | Android Studio | Android Studio |
-| Android 虚拟机                       | Genymotion     | Genymotion     |
-| Android 当无线鼠标、键盘、远程桌面等 | [WiFi Mouse][] | [WiFi Mouse][] |
-| 源码阅读                             | Source Insight | IDE/Vim        |
-| 笔记                                 | OneNote        | OneNote        |
-| 终端                                 | Cmder          | zsh            |
+| 输入法                         | 万能五笔     | 系统自带五笔和拼音         |
+| 终端                                 | CRT         | CRT iTerm2        |
 | 视频播放器                           | QQ 影音        | mpv            |
 | 下载                                 | 迅雷精简版     | 迅雷           |
 | 录制屏幕生成 GIF                     | LICEcap        | LICEcap        |

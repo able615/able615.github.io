@@ -84,7 +84,7 @@ Configuration file: /Users/liuyw/able615blog/_config.yml
   Server running... press ctrl-c to stop.
 ```
 将http://127.0.0.1:4000/复制到浏览器，能打开就表示正常了。
-![images](https://note.youdao.com/yws/api/personal/file/WEBc247825c117d65c808f28b3beb342ca3?method=getImage&version=1561&cstk=e7Z-UHIH)
+![images](https://i.loli.net/2018/01/16/5a5d4f905427d.png)
 
 ## 6、部署到github
 &emsp;&emsp;按照自己的github账号创建一个仓库,固定格式username.github.io，这个代码仓库就是博客源码存放地，博客公网链接就是：https://able615.github.io

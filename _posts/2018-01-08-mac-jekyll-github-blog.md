@@ -111,8 +111,10 @@ https://github.com/able615/able615.github.io.git
 $ git clone https://github.com/able615/able615.github.io.git
 ```
 &emsp;&emsp;刚拿到的主题，内容还是别人的，我们需要了解一下博客的[基本目录结构](https://www.jekyll.com.cn/)，然后加以修改成自己的博客框架。
-
-![image](https://note.youdao.com/yws/api/personal/file/WEBb833a93e0b07a72b9fe691ab222cd04a?method=getImage&version=1733&cstk=e7Z-UHIH)
+
+![images](https://i.loli.net/2018/01/16/5a5d478c4d622.png)
+
+
 
 1. 修改域名
 

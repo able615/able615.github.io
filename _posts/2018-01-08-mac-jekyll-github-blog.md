@@ -113,9 +113,7 @@ $ git clone https://github.com/able615/able615.github.io.git
 &emsp;&emsp;刚拿到的主题，内容还是别人的，我们需要了解一下博客的[基本目录结构](https://www.jekyll.com.cn/)，然后加以修改成自己的博客框架。
 
 ![images](https://i.loli.net/2018/01/16/5a5d478c4d622.png)
-
-
-
+
 1. 修改域名
 
    如果你需要绑定自己的域名，那么修改 CNAME 文件的内容；如果不需要绑定自己的域名，那么删掉 CNAME 文件。

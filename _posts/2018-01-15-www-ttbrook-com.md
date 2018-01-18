@@ -20,7 +20,7 @@ keywords: 群晖, NAS, DDNS, Synology
 ![01](https://note.youdao.com/yws/api/personal/file/WEB6a7dd9e1199f46c8f774801c472604fa?method=getImage&version=2031&cstk=Tb3iXeJY)
 
 在“高级”选项里勾选需要外部访问的服务，这个设置类似开启路由器的转发功能
-![images](_posts/assets/markdown-img-paste-20180117152129300.png)
+![images](https://note.youdao.com/yws/api/personal/file/WEB8743a71b068f92237f7eb2dee0225131?method=getImage&version=2032&cstk=Tb3iXeJY)
 
 通过以上设置，我们就可以打开 http://QuickConnect.to/你的QuickConnectID 从外网来访问自己家里NAS的DSM和其它 NAS 应用了，非常的简单。
 

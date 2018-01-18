@@ -17,7 +17,7 @@ keywords: 群晖, NAS, DDNS, Synology
 &emsp;群晖 NAS 的 DSM 系统默认就已经支持 DDNS 功能，并且群晖自己也提供了免费的 DDNS 服务，你可以注册一个 QuickConnect.to 的域名。当然，它还支持其他的 DDNS 服务提供商，譬如国内比较多人用的花生壳、3322.org 等等。这个服务商的稳定性、免费与否、更新速度等都不一样，大家根据自己喜好进行挑选。
 
 &emsp;群晖官方的 DDNS 设置叫做 QuickConnect ，注册一个 Synology.Account 用户名，在 NAS 的“控制面板”启用“Enable QuickConnect”并填写自己的注册信息，如下图：
-![01](assets/markdown-img-paste-20180118090305668.png)
+![01](https://note.youdao.com/yws/api/personal/file/WEB6a7dd9e1199f46c8f774801c472604fa?method=getImage&version=2031&cstk=Tb3iXeJY)
 
 在“高级”选项里勾选需要外部访问的服务，这个设置类似开启路由器的转发功能
 ![images](_posts/assets/markdown-img-paste-20180117152129300.png)

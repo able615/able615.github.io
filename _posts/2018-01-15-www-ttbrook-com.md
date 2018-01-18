@@ -23,10 +23,10 @@ keywords: 群晖, NAS, DDNS, Synology
 在“高级”选项里勾选需要外部访问的服务，这个设置类似开启路由器的转发功能
 ![ddns02](/images/posts/ddns/markdown-img-paste-20180117152129300.png)
 
-通过以上设置，我们就可以打开 http://QuickConnect.to/你的QuickConnectID 从外网来访问自己家里NAS的DSM和其它 NAS 应用了，非常的简单。
+通过以上设置，我们就可以打开 http://QuickConnect.to/你的QuickConnectID 从外网来访问自己家里 NAS 上的各种应用了，非常的简单。
 
 ## DDNS 进阶，配置自有顶级域名实现公网访问
-&emsp;在国内使用群晖免费的 DDNS 服务，设置虽然非常方便，但是速度不是很满意，从外网访问自己家里的NAS时，总是一卡一卡的，原因不得而知，可能是因为免费吧。刚好手里有万网购买的自有顶级域名 www.xxx.com 一个，琢磨着怎么弄个类似 nas.xxx.com 这样的子域名出来，给家里的 NAS 专用，关于使用自有顶级域名进行 DDNS 解析和访问的优点很多：
+&emsp;在国内使用群晖免费的 DDNS 服务，设置虽然非常方便，但是速度不是很满意，从外网访问自己家里的 NAS 时，总是一卡一卡的，原因不得而知，可能是因为免费吧。刚好手里有万网购买的自有顶级域名 www.xxx.com 一个，琢磨着怎么弄个类似 nas.xxx.com 这样的子域名出来，给家里的 NAS 专用，关于使用自有顶级域名进行 DDNS 解析和访问的优点很多：
 
 * 方便记忆地址和访问 NAS 服务器
 
@@ -41,13 +41,13 @@ keywords: 群晖, NAS, DDNS, Synology
 网上查到万网其实不提供 DDNS 服务，为啥就不提供呢！亏我还注册购买了它家域名。
 
 2、查询群晖 NAS DDNS 设置处支持哪些服务商提供的 DDNS 服务
-当然，群晖的支持列表上也没有万网，我选择了一家 DNSPod
+当然，群晖的支持列表上也没有万网，我选择了一家 DNSPod （现在归企鹅公司旗下）
 ![ddns03](/images/posts/ddns/markdown-img-paste-20180117162445454.png)
 
 3、注册 DNSPod 最好能实名认证
 ![ddns04](/images/posts/ddns/markdown-img-paste-20180117163018304.png)
 
-4、注册成功后登陆，在控制台-域名解析处，添加你要使用的顶级域名
+4、注册成功后登陆，在控制台-域名解析处，添加你要使用的顶级域名，比如 qq.com
 ![ddns05](/images/posts/ddns/markdown-img-paste-20180117164149921.png)
 
 5、添加域名后按 DNSPod 提供的 DNS 服务器地址，前往域名注册商处（我这里是万网）修改 DNS
@@ -66,7 +66,7 @@ keywords: 群晖, NAS, DDNS, Synology
 9、设置路由器端口转发，群晖 NAS 有提供便捷设置方式，很贴心，勾选相应服务就可以
 ![ddns10](/images/posts/ddns/markdown-img-paste-20180117171244818.png)
 
-&emsp;到此，可以直接使用自有的顶级域名（形如nas.xxx.com）直接访问家里的nas了，请注意 : 虽是顶级域名但访问时还要添加你的具体服务端口号的，比如访问 NAS 的 DSM 端口就是 5000
+&emsp;到此，可以直接使用自有的顶级域名（形如nas.xxx.com）直接访问家里的nas了，请注意 : 虽是顶级域名，但访问时还要添加你的具体服务端口号的，比如访问 NAS 的 DSM 端口就是 5000
 
 ## DNSPod DDNS 解析原理
 &emsp;他家的 API 接口允许用户直接通过 API 修改解析值， 群晖 NAS 会定时将公网 IP 推送给 DNSPod。 接着 DNSPod 开始解析域名并将其指向最新提交的 IP 地址，最终我们在访问时实际访问的就是最新提交的 IP。

@@ -1,6 +1,6 @@
-# 码志
+# 博客模板
 
-我的个人博客：<https://able615.github.io>，欢迎 Star 和 Fork。
+我的个人博客：<http://www.ttbrook.com>，欢迎 Star 和 Fork。
 
 ## 概览
 
@@ -18,7 +18,7 @@
 
 **[在线预览 &rarr;](https://able615.github.io)**
 
-![screenshot home](https://able615.github.io/assets/images/screenshots/home.png)
+![home](/assets/vendor/markdown-img-paste-20180118142307105.png)
 
 ## Fork 指南
 

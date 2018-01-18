@@ -17,10 +17,10 @@ keywords: 群晖, NAS, DDNS, Synology
 &emsp;群晖 NAS 的 DSM 系统默认就已经支持 DDNS 功能，并且群晖自己也提供了免费的 DDNS 服务，你可以注册一个 QuickConnect.to 的域名。当然，它还支持其他的 DDNS 服务提供商，譬如国内比较多人用的花生壳、3322.org 等等。这个服务商的稳定性、免费与否、更新速度等都不一样，大家根据自己喜好进行挑选。
 
 &emsp;群晖官方的 DDNS 设置叫做 QuickConnect ，注册一个 Synology.Account 用户名，在 NAS 的“控制面板”启用“Enable QuickConnect”并填写自己的注册信息，如下图：
-![images](/assets/markdown-img-paste-20180117151439733.png)
+![images](_posts/assets/markdown-img-paste-20180117151439733.png)
 
 在“高级”选项里勾选需要外部访问的服务，这个设置类似开启路由器的转发功能
-![images](/assets/markdown-img-paste-20180117152129300.png)
+![images](_posts/assets/markdown-img-paste-20180117152129300.png)
 
 通过以上设置，我们就可以打开 http://QuickConnect.to/你的QuickConnectID 从外网来访问自己家里NAS的DSM和其它 NAS 应用了，非常的简单。
 
@@ -41,29 +41,29 @@ keywords: 群晖, NAS, DDNS, Synology
 
 2、查询群晖 NAS DDNS 设置处支持哪些服务商提供的 DDNS 服务
 当然，群晖的支持列表上也没有万网，我选择了一家 DNSPod
-![](/assets/markdown-img-paste-20180117162445454.png)
+![](_posts/assets/markdown-img-paste-20180117162445454.png)
 
 3、注册 DNSPod 最好能实名认证
-![](/assets/markdown-img-paste-20180117163018304.png)
+![](_posts/assets/markdown-img-paste-20180117163018304.png)
 
 4、注册成功后登陆，在控制台-域名解析处，添加你要使用的顶级域名
-![](/assets/markdown-img-paste-20180117164149921.png)
+![](_posts/assets/markdown-img-paste-20180117164149921.png)
 
 5、添加域名后按 DNSPod 提供的 DNS 服务器地址，前往域名注册商处（我这里是万网）修改 DNS
-![](/assets/markdown-img-paste-20180117164652122.png)
+![](_posts/assets/markdown-img-paste-20180117164652122.png)
 
 6、在 DNSPod 的控制台，选中前面添加的域名，添加记录然后如下图进行填写：
-![](/assets/markdown-img-paste-20180117165210309.png)
+![](_posts/assets/markdown-img-paste-20180117165210309.png)
 注：主机记录是你需要绑定的域名，比如这里是 nas.qq.com 这个自定义设置；记录值填写 111.111.111.111 即可,因为后面会自动改，DDNS 修改的就是这个值。
 
 7、生成 API Token,在 DNSPod 的控制台"用户中心"--“安全设置”--“API Token”，生成后要第一时间截图或者复制保存，名称可以自己定义
-![](/assets/markdown-img-paste-20180117170206865.png)
+![](_posts/assets/markdown-img-paste-20180117170206865.png)
 
 8、前往群晖 NAS 打开“控制面板”--”外部访问”--DDNS--Add
-![](/assets/markdown-img-paste-20180117170900551.png)
+![](_posts/assets/markdown-img-paste-20180117170900551.png)
 
 9、设置路由器端口转发，群晖 NAS 有提供便捷设置方式，很贴心，勾选相应服务就可以
-![](/assets/markdown-img-paste-20180117171244818.png)
+![](_posts/assets/markdown-img-paste-20180117171244818.png)
 
 &emsp;到此，可以直接使用自有的顶级域名（形如nas.xxx.com）直接访问家里的nas了，请注意 : 虽是顶级域名但访问时还要添加你的具体服务端口号的，比如访问 NAS 的 DSM 端口就是 5000
 

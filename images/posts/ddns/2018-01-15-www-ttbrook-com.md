@@ -42,29 +42,29 @@ keywords: 群晖, NAS, DDNS, Synology
 
 2、查询群晖 NAS DDNS 设置处支持哪些服务商提供的 DDNS 服务
 当然，群晖的支持列表上也没有万网，我选择了一家 DNSPod
-![ddns03](/images/posts/ddns/markdown-img-paste-20180117162445454.png)
+![](assets/markdown-img-paste-20180117162445454.png)
 
 3、注册 DNSPod 最好能实名认证
-![ddns04](/images/posts/ddns/markdown-img-paste-20180117163018304.png)
+![](assets/markdown-img-paste-20180117163018304.png)
 
 4、注册成功后登陆，在控制台-域名解析处，添加你要使用的顶级域名
-![ddns05](/images/posts/ddns/markdown-img-paste-20180117164149921.png)
+![](assets/markdown-img-paste-20180117164149921.png)
 
 5、添加域名后按 DNSPod 提供的 DNS 服务器地址，前往域名注册商处（我这里是万网）修改 DNS
-![ddns06](/images/posts/ddns/markdown-img-paste-20180117164652122.png)
+![](assets/markdown-img-paste-20180117164652122.png)
 
 6、在 DNSPod 的控制台，选中前面添加的域名，添加记录然后如下图进行填写：
-![ddns07](/images/posts/ddns/markdown-img-paste-20180117165210309.png)
+![](assets/markdown-img-paste-20180117165210309.png)
 注：主机记录是你需要绑定的域名，比如这里是 nas.qq.com 这个自定义设置；记录值填写 111.111.111.111 即可,因为后面会自动改，DDNS 修改的就是这个值。
 
 7、生成 API Token,在 DNSPod 的控制台"用户中心"--“安全设置”--“API Token”，生成后要第一时间截图或者复制保存，名称可以自己定义
-![ddns08](/images/posts/ddns/markdown-img-paste-20180117170206865.png)
+![](assets/markdown-img-paste-20180117170206865.png)
 
 8、前往群晖 NAS 打开“控制面板”--”外部访问”--DDNS--Add
-![ddns09](/images/posts/ddns/markdown-img-paste-20180117170900551.png)
+![](assets/markdown-img-paste-20180117170900551.png)
 
 9、设置路由器端口转发，群晖 NAS 有提供便捷设置方式，很贴心，勾选相应服务就可以
-![ddns10](/images/posts/ddns/markdown-img-paste-20180117171244818.png)
+![](assets/markdown-img-paste-20180117171244818.png)
 
 &emsp;到此，可以直接使用自有的顶级域名（形如nas.xxx.com）直接访问家里的nas了，请注意 : 虽是顶级域名但访问时还要添加你的具体服务端口号的，比如访问 NAS 的 DSM 端口就是 5000
 

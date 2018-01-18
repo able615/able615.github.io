@@ -18,10 +18,10 @@ keywords: 群晖, NAS, DDNS, Synology
 
 &emsp;群晖官方的 DDNS 设置叫做 QuickConnect ，注册一个 Synology.Account 用户名，在 NAS 的“控制面板”启用“Enable QuickConnect”并填写自己的注册信息，如下图：
 
-![ddns01](https://github.com/able615/able615.github.io/blob/master/images/posts/ddns/markdown-img-paste-20180117151439733.png)
+![ddns01](/images/posts/ddns/markdown-img-paste-20180117151439733.png)
 
 在“高级”选项里勾选需要外部访问的服务，这个设置类似开启路由器的转发功能
-![ddns02](https://github.com/able615/able615.github.io/blob/master/images/posts/ddns/markdown-img-paste-20180117152129300.png)
+![ddns02](/images/posts/ddns/markdown-img-paste-20180117152129300.png)
 
 通过以上设置，我们就可以打开 http://QuickConnect.to/你的QuickConnectID 从外网来访问自己家里NAS的DSM和其它 NAS 应用了，非常的简单。
 
@@ -42,7 +42,7 @@ keywords: 群晖, NAS, DDNS, Synology
 
 2、查询群晖 NAS DDNS 设置处支持哪些服务商提供的 DDNS 服务
 当然，群晖的支持列表上也没有万网，我选择了一家 DNSPod
-![ddns03](https://github.com/able615/able615.github.io/blob/master/images/posts/ddns/markdown-img-paste-20180117162445454.png)
+![ddns03](/images/posts/ddns/markdown-img-paste-20180117162445454.png)
 
 3、注册 DNSPod 最好能实名认证
 ![ddns04](/images/posts/ddns/markdown-img-paste-20180117163018304.png)

@@ -18,7 +18,7 @@
 
 **[在线预览 &rarr;](https://able615.github.io)**
 
-![home](/assets/vendor/markdown-img-paste-20180118142307105.png)
+![home](/images/posts/ddns/markdown-img-paste-20180118142307105.png)
 
 ## Fork 指南
 

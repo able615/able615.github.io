@@ -12,7 +12,7 @@ keywords: Mac, Mac OSX, Homebrew
 ## 安装.dmg程序
 Mac系统的安装文件后缀名是.dmg,  双击打开后，会出现一个安装对话框， 把图标拖拽到Application中就可以了,如果是版本升级，也可以如此操作，拖进去后选择一下替换就行。
 
-![](/images/posts/mac/markdown-img-paste-20180302150418632.png)
+![](/images/posts/mac/markdown-img-paste-20180302150418632.png)
 
 ## 使用brew在Mac上安装软件
 brew全名叫Homebrew，是Mac OSX上的软件包管理工具，能在Mac中方便的安装软件或者卸载软件， 只需要一个命令， 非常方便。
@@ -26,7 +26,6 @@ brew类似centos的yum或者ubuntu的apt-get
 ```
 ![a2](/images/posts/mac/markdown-img-paste-2018030214452936.png)
 
-
 下载安装完成大概20分钟（100M电信光纤实测）
 
 ## 使用brew安装软件

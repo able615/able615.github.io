@@ -1,4 +1,12 @@
-# 在Mac上安装软件
+---
+layout: post
+title: 在 Mac 上安装软件
+categories: Mac
+description: Mac 安装软件的方法
+keywords: Mac, Mac OSX, Homebrew
+---
+
+
 ## 在App store安装软件
 这个最简单，找到软件，点获取就可以，前提是注册个苹果账户，很多软件是付费的。
 ## 安装.dmg程序
@@ -42,7 +50,7 @@ brew uninstall wget
 ``` python
 brew search /wge*/
 ```
-/wge*/是正则表达式，*号要包含在/内
+/wge*/是正则表达式，星号要包含在/内
 
 ![a4](/images/posts/mac/markdown-img-paste-20180302144751884.png)
 

@@ -7,7 +7,6 @@ categories: docker, zabbix, centos7, mysql
 keywords: docker, zabbix, centos7, mysql
 ---
 
-* content
 
 zabbix 是一个流行的开源监控报警系统，这次使用 docker 容器来发布 zabbix ，以下分享安装的整个过程。
 
